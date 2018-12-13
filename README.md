@@ -1,2 +1,2 @@
-# setIframeHeight 1.0.0
-아이프레임의 높이를 적용합니다.
+# setFrameHeight 1.0.0
+프레임의 높이를 적용합니다.
