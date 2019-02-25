@@ -15,7 +15,7 @@ try {
 			try {
 				element.height = element.contentWindow.document.documentElement.scrollHeight;
 			}catch(e) {
-				//console.error(e);
+				//throw e;
 			}
 		};
 	})();
