@@ -9,11 +9,11 @@ try {
 		/**
 		 * @name setFrameHeight
 		 * @since 2017-12-06
-		 * @param {element} value
+		 * @param {element} element
 		 */
-		window.setFrameHeight = function(value) {
+		window.setFrameHeight = function(element) {
 			try {
-				value.height = value.contentWindow.document.documentElement.scrollHeight;
+				element.height = element.contentWindow.document.documentElement.scrollHeight;
 			}catch(e) {
 				//throw e;
 			}
